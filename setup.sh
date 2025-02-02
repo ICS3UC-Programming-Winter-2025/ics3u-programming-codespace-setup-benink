@@ -2,6 +2,8 @@
 
 # Created by: Mr Coxall
 # Created on: Jun 2022
+# Modified by: Lynnette Raffin
+# Modified on: Feb 2025
 # Created for: To automate the generation of SSH GitHub keys
 
 
@@ -52,11 +54,18 @@ read  any_key
 
 # create an ICS3U directory in the root directory
 mkdir ~/ICS3U
+mkdir ~/ICS3U/Assign
+mkdir ~/ICS3U/Assign/Assign-02
+mkdir ~/ICS3U/Assign/Assign-03
+mkdir ~/ICS3U/Assign/Assign-04
+mkdir ~/ICS3U/Assign/Assign-05
+mkdir ~/ICS3U/Assign/Assign-06
 mkdir ~/ICS3U/Unit1
 mkdir ~/ICS3U/Unit1/Unit1-01
 mkdir ~/ICS3U/Unit1/Unit1-02
 mkdir ~/ICS3U/Unit1/Unit1-03
 mkdir ~/ICS3U/Unit1/Unit1-04
+mkdir ~/ICS3U/Unit1/Unit1-05
 mkdir ~/ICS3U/Unit2
 mkdir ~/ICS3U/Unit2/Unit2-01
 mkdir ~/ICS3U/Unit2/Unit2-02
@@ -94,6 +103,7 @@ mkdir ~/ICS3U/Unit6/Unit6-03
 mkdir ~/ICS3U/Unit6/Unit6-04
 mkdir ~/ICS3U/Unit6/Unit6-05
 mkdir ~/ICS3U/Unit6/Unit6-06
+mkdir ~/ICS3U/Unit6/Unit6-07
 
 # copy over the .vscode directory into it
 cp -r .vscode ~/ICS3U/.vscode
