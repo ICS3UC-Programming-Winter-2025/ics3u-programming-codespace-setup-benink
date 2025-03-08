@@ -1,0 +1,4 @@
+BLUE = "\033;4"
+RED
+GREEN
+WHITE
